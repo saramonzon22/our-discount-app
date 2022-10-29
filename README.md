@@ -4,4 +4,4 @@
 
 ### Proyecto
 
-In this exercise Im going to make a web app to calculate discounts in our shop!
+In this exercise Im going to make a web app to calculate discounts!
