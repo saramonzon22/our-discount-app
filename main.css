@@ -2,100 +2,102 @@
     margin: 0;
     padding: 0;
 }
-header {
+.headerMain {
+    width: 100%;
     height: 10vh;
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F7C192);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F7C192); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Silkscreen', cursive;
+    gap: 20px;
+    background-color: #485696;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    font-family: 'Ubuntu', sans-serif;
 }
-main {
-    width: 100%;
-    height: 90vh;
-    background: #F7C192;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F7C192);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F7C192); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-.speech {
-    margin-top: 25px;
-    margin-left: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 15px;
-    
+h1 {
+    align-self: center;
+    font-size: 24px;
+    background-color: #FC7A1E;
+    padding: 5px;
 }
 h2 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #8b3080;
+    align-self: center;
+    font-size: 24px;
+    background-color: #FC7A1E;
+    padding: 5px;
 }
-.form {
-    width: 50vw;
-    height: 30vh;  
+.main {
+    width: 100%;
+    height: 90vh;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 25px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #7180B9;
+    border: solid 1px black;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color:#7a0a51;
-    font-family: 'Ubuntu', sans-serif;
+    gap: 10px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+        
+}
+a {
+    text-decoration: none;
+    color: #E7E7E7;;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     
 }
-@media only screen and (min-width: 768px) {
-    .form {
-        width: 45vw;
-    }
+.fa-percent {
+    color: #E7E7E7;
+
 }
-@media only screen and (min-width: 1024px) {
-    .form {
-        width: 18vw;
-    }
-}
-label {
-    color: white;
-}
-.precioJs {
-    height: 25px;
-    border: solid 1px black;
-    border-radius: 10px;
-    padding-left: 10px;
-    font-size: 16px;
-    color: #7a33ca;
-    font-weight: 600;
-}
-.discountJs {
-    height: 25px;
-    border: solid 1px black;
-    border-radius: 10px;
-    padding-left: 10px;
-    color: #7a33ca;
-    font-size: 16px;
-    font-weight: 600;
-}
-.buttonJs {
-    font-family: 'Ubuntu', sans-serif;
+.math1 {
+    width: 30px;
     height: 30px;
-    border: solid 1px black;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #7a33ca;
+    color: #E7E7E7;
+    background: url(./sale-percent-svgrepo-com.svg);
+    background-color: #FC7A1E;
+    border-radius: 50%;
+    
 }
-.priceFinal {
-    color: white;
+.math {
+    width: 30px;
+    height: 30px;
+    color: #E7E7E7;
+    background: url(./shapes-geometry-svgrepo-com.svg);
+    background-color: #FC7A1E;
+    border-radius: 20%;
+}
+.math2 {
+    width: 30px;
+    height: 30px;
+    color: #E7E7E7;
+    background: url(./divide-svgrepo-com.svg);
+    background-color: #FC7A1E;
+    border-radius: 10%;
+}
+.math3 {
+    width: 30px;
+    height: 30px;
+    color: #E7E7E7;
+    background: url(./money-svgrepo-com.svg);
+    background-color: #FC7A1E;
+    border-radius: 50%;
 }

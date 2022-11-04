@@ -3,58 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6d7b554f88.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Shop</title>
+    <link rel="stylesheet" href="main.css" />
+    <title>The page for everything</title>
   </head>
   <body>
-    <header><h1>Porcentajes y descuentos</h1></header>
-    <main>
-      <section class="section">
-        <div class="speech">
-          <h2>
-            ¿No soportas tener que calcular el descuento de las cosas
-            mentalmente?
-          </h2>
-          <h2>
-            ¿Odias usar la calculadora del móvil y encima, calcularlo mal?
-          </h2>
-          <h2>
-            En esta aplicación web tienes la solución. Pon el precio inicial, su
-            descuento et voilá!
-          </h2>
-        </div>
-
-        <form action="" class="form">
-          <label for="precio"> Escribe el precio de tu producto</label>
-          <input type="number" name="precio" id="precio" class="precioJs" />
-          <label for="descount"> Escribe el descuento de tu producto</label>
-          <input
-            type="number"
-            name="descount"
-            id="descount"
-            class="discountJs"
-          />
-          <button type="button" class="buttonJs">Calcular</button>
-          <p class="priceFinal"></p>
-        </form>
-      </section>
+    <header class="headerMain">
+      <h1>The page for <del>everything</del></h1>
+      <h2>Well, almost everything</h2>
+    </header>
+    <main class="main">
+      <ul class="grid">
+        <li class="box">
+          <a href="./porcentajes.html"
+            >Porcentajes
+            <div class="math1"></div
+          ></a>
+        </li>
+        <li class="box">
+          <a href="./figuras.html"
+            >Figuras
+            <div class="math"></div
+          ></a>
+        </li>
+        <li class="box">
+          <a href="./promedio.html"
+            >Promedio
+            <div class="math2"></div
+          ></a>
+        </li>
+        <li class="box">
+          <a href="./sueldos.html"
+            >Sueldos
+            <div class="math3"></div
+          ></a>
+        </li>
+      </ul>
     </main>
-    <script src="./porcentajes.js"></script>
   </body>
 </html>

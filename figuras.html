@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6d7b554f88.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="figuras.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras | Curso JS</title>
+  </head>
+  <body>
+    <header class="header"><h1 class="title1">Figuras geométricas</h1></header>
+    <main class="main">
+      <h2 class="title2">
+        ¡Calcula el perímetro y el área de tus figuras preferidas!
+      </h2>
+      <section>
+        <form action="" class="section1">
+          <fieldset class="fieldsetCuadrado">
+            <label for="InputCuadrado"
+              >Escribe cuánto mide cada lado de tu cuadrado
+              <button type="button" class="reset reset-cuadrado">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </label>
+            <input id="inputCuadrado" type="number" />
+            <button type="button" class="perimetroCuadrado">
+              Calcular el perímetro
+            </button>
+            <button type="button" class="areaCuadrado">Calcular el area</button>
+            <p class="resultCuadrado"></p>
+          </fieldset>
+          <fieldset class="fieldsetTriangulo">
+            <label for="InputCuadrado"
+              >Escribe cuánto mide cada lado de tu triángulo
+              <button type="button" class="reset reset-triangulo">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </label>
+            <input
+              id="inputTriangulo1"
+              type="number"
+              placeholder="lado triangulo a"
+            />
+            <input
+              id="inputTriangulo2"
+              type="number"
+              placeholder="lado triangulo b"
+            />
+            <input
+              id="baseTriangulo"
+              type="number"
+              placeholder="base triangulo"
+            />
+            <input
+              id="alturaTriangle"
+              type="number"
+              placeholder="altura triangulo"
+            />
+            <button type="button" class="perimetroTriangulo">
+              Calcular el perímetro
+            </button>
+            <button type="button" class="areaTriangulo">
+              Calcular el area
+            </button>
+            <p class="resultTriangulo"></p>
+          </fieldset>
+          <fieldset class="fieldsetCirculo">
+            <label for="InputCirculo"
+              >Escribe cuánto mide el radio de tu circunferencia
+              <button type="button" class="reset reset-circle">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </label>
+
+            <input id="inputCirculo" type="number" />
+            <button type="button" class="diametroCirculo">
+              Calcular el diametro
+            </button>
+            <button type="button" class="perimetroCirculo">
+              Calcular el perímetro
+            </button>
+            <button type="button" class="areaCirculo">Calcular el area</button>
+            <p class="resultCirculo"></p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <script src="./figuras.js"></script>
+  </body>
+</html>

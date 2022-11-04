@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F7C192);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F7C192); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Silkscreen', cursive;
+}
+main {
+    width: 100%;
+    height: 90vh;
+    background: #F7C192;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F7C192);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F7C192); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.speech {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8b3080;
+}
+.form {
+    width: 50vw;
+    height: 30vh;  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#7a0a51;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    
+}
+@media only screen and (min-width: 768px) {
+    .form {
+        width: 45vw;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .form {
+        width: 18vw;
+    }
+}
+label {
+    color: white;
+}
+.precioJs {
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #7a33ca;
+    font-weight: 600;
+}
+.discountJs {
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #7a33ca;
+    font-size: 16px;
+    font-weight: 600;
+}
+.buttonJs {
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #7a33ca;
+}
+.priceFinal {
+    color: white;
+}
